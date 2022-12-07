@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Noto+Sans+KR:wght@300;400;700;900&family=Quicksand&display=swap");
+/* 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Quicksand', sans-serif; 
+*/
+:root {
+  /* color */
+  --color-main: #fff;
+}
+
+header {
+  padding: 0;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.gnb-wrap {
+  width: 100%;
+}
+.gnb {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+  box-sizing: border-box;
+}
+.logo-wrap {
+  width: 33%;
+}
+.logo-wrap .logo {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-align: start;
+}
+
+.dep1 {
+  text-align: center;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dep1 li {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.dep1 li a {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+.dep1 li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  display: block;
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.dep1 li:hover a::after {
+  width: 100%;
+}
+.github-wrap {
+  width: 33%;
+  text-align: end;
+}
+.github-wrap img {
+  width: 100%;
+  max-width: 50px;
+  transition: all 0.2s ease-in;
+}
+.github-wrap img:hover {
+  transform: translateY(-5px);
+}
+
+/* main */
+.home-main-section01 {
+  width: 100%;
+  margin: 180px 0;
+}
+.home-text-wrap {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.home-text-wrap {
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.text01,
+.text03 {
+  text-align: start;
+}
+.text02 {
+  text-align: end;
+}
+
+.home-main-section02 {
+  width: 100%;
+  margin-top: 80px;
+  background-color: #151515;
+  padding: 50px 0;
+  overflow-x: hidden;
+}
+.skil-list-wrap {
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.sec-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
+  color: #fff;
+}
+.skil-list-wrap .project-wrap {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  color: #fff;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 100px 0;
+}
+
+.skil-list-wrap .project-wrap .swiper-slide.project-slide {
+  width: 350px;
+  height: 400px;
+  font-size: 2rem;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.project-slide .project-name {
+  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.45rem;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide > a {
+  display: flex;
+  align-items: center;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide:hover > a > .lnr-arrow-right {
+  transform: translateX(50%);
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide > a > .lnr-arrow-right {
+  margin-top: 6px;
+  margin-left: 10px;
+  transition: all 0.3s ease-in;
+}
