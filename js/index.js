@@ -14,4 +14,8 @@ $(document).ready(function () {
       },
     },
   });
+  AOS.init();
+  var rellax = new Rellax(".rellax", {
+    horizontal: true,
+  });
 });
