@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Noto+Sans+KR:wght@300;400;700;900&family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Noto+Sans+KR:wght@300;400;700;900&family=Quicksand&display=swap');
 /* 
 font-family: 'Alfa Slab One', cursive;
 font-family: 'Montserrat', sans-serif;
@@ -34,7 +34,7 @@ header {
   text-decoration: none;
   color: #fff;
   font-size: 2.5rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-align: start;
 }
@@ -52,7 +52,7 @@ header {
 }
 .dep1 li a {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 1rem;
   transition: all 0.1s ease-in;
@@ -60,7 +60,7 @@ header {
   color: #fff;
 }
 .dep1 li a::after {
-  content: "";
+  content: '';
   width: 0%;
   height: 2px;
   display: block;
@@ -99,7 +99,7 @@ header {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Alfa Slab One', cursive;
   font-size: 8rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -116,7 +116,7 @@ header {
 .home-main-section02 {
   width: 100%;
   margin-top: 80px;
-  background-color: #eee;
+  background-color: #fff;
   padding: 50px 0;
   overflow-x: hidden;
 }
@@ -128,7 +128,7 @@ header {
   margin: 0 auto;
 }
 .sec-title {
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Alfa Slab One', cursive;
   font-size: 5rem;
   color: #000;
   text-transform: uppercase;
@@ -141,7 +141,7 @@ header {
   justify-content: space-between;
   gap: 10px;
   flex-wrap: wrap;
-  margin: 25px 0 50px;
+  margin: 25px 0 0px;
 }
 
 .skil-list-wrap .project-wrap .swiper-slide.project-slide {
@@ -159,7 +159,7 @@ header {
   box-sizing: border-box;
 }
 .project-slide .project-name {
-  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+  font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.45rem;
@@ -168,10 +168,18 @@ header {
   display: flex;
   align-items: center;
 }
-.skil-list-wrap .project-wrap .swiper-slide.project-slide:hover > .open-text > .lnr-arrow-right {
+.skil-list-wrap
+  .project-wrap
+  .swiper-slide.project-slide:hover
+  > .open-text
+  > .lnr-arrow-right {
   transform: translateX(50%);
 }
-.skil-list-wrap .project-wrap .swiper-slide.project-slide > .open-text > .lnr-arrow-right {
+.skil-list-wrap
+  .project-wrap
+  .swiper-slide.project-slide
+  > .open-text
+  > .lnr-arrow-right {
   margin-top: 6px;
   margin-left: 10px;
   transition: all 0.3s ease-in;
@@ -193,6 +201,8 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: flex-start;
+  gap: 30px;
+  margin: 25px 0 50px;
 }
 .skil-box-wrap .skil-box {
   width: 300px;
@@ -205,6 +215,7 @@ header {
   justify-content: center;
   padding: 10px;
   box-sizing: border-box;
+  position: relative;
 }
 .skil-box-wrap .skil-box .skil-img {
   display: block;
@@ -214,8 +225,27 @@ header {
 .skil-box-wrap .skil-box .skil-img img {
   width: 150px;
 }
-.skil-box-wrap .skil-box .skil-name {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.5rem;
-  color: #151515;
+
+.skil-bg {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: flex;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+.skil-bg .skil-name {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.skil-bg:hover {
+  opacity: 1;
 }
