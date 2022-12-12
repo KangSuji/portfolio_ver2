@@ -1,8 +1,7 @@
 .project-section {
   width: 100%;
 }
-.project-section01 {
-}
+
 .project-section01 .section-tilte {
   width: 100%;
   color: #151515;
@@ -11,4 +10,72 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.project__wrap {
+  width: 100%;
+  max-width: 1550px;
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(21, 21, 21, 0.15);
+}
+.right-box {
+  width: 75%;
+}
+.right-box__inner {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.15);
+}
+.project__box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 30px;
+  box-sizing: border-box;
+  border-left: 1px solid rgba(21, 21, 21, 0.15);
+}
+.left-box {
+  width: 25%;
+}
+.left-box > .project__box {
+  width: 100%;
+  border-left: none;
+}
+.go-git__btn {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50vw;
+  background-color: #4f5bff;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+}
+.go-git__btn > span {
+  display: inline-block;
+  width: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+  transition: transform 0.3s ease-in-out;
+}
+.go-git__btn:hover > span {
+  transform: translate(50px, -50px);
+}
+.project__box-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project__box-title__name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.project__box-title > img {
+  width: 30px;
 }
