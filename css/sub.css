@@ -79,3 +79,11 @@
 .project__box-title > img {
   width: 30px;
 }
+#amom-tea-img {
+  width: 600px;
+  height: 250px;
+  background-image: url("/images/amomtea.png");
+  background-position: center -4px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
