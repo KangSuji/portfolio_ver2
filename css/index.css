@@ -241,3 +241,48 @@ header {
 .skil-bg:hover {
   opacity: 1;
 }
+
+.footer {
+  width: 100%;
+  background-color: #151515;
+  padding: 60px 100px;
+  box-sizing: border-box;
+}
+.top-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.top-btn > span {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+.top-btn:hover span {
+  transform: translateY(-5px);
+}
+.footer__wrap {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.footer__left,
+.footer__right {
+  width: 50%;
+}
+.copyright {
+  width: 100%;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+  color: #e1e1e1;
+}

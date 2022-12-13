@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
+  padding: 80px 0 150px;
 }
 .project-section {
   width: 100%;
@@ -33,6 +34,9 @@
   display: flex;
   border-bottom: 1px solid rgba(21, 21, 21, 0.15);
 }
+.right-box__inner:last-child {
+  border-bottom: none;
+}
 .project__box {
   width: 50%;
   display: flex;
@@ -52,6 +56,7 @@
 .go-git__btn {
   display: block;
   width: 100%;
+  max-width: 325px;
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
@@ -71,18 +76,28 @@
 .go-git__btn:hover > span {
   transform: translate(50px, -50px);
 }
+.go-git__btn.sticky {
+  position: fixed;
+  top: 25px;
+}
 .project__box-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
+
 .project__box-title__name {
   font-size: 2.5rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
-.project__box-title > img {
+.project__box-title > a > img {
   width: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+.project__box-title > a:hover > img {
+  transform: translate(50px, -50px);
 }
 #amom-tea-img {
   width: 600px;
@@ -94,7 +109,27 @@
 }
 .project__box-content {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #151515;
   font-weight: 300;
+}
+.lang-name {
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/******************************** 
+            skills
+ *******************************/
+
+.skills {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.skills-section01 {
+  width: 100%;
 }
