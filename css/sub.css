@@ -13,7 +13,7 @@
   color: #151515;
   font-size: 10rem;
   line-height: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 60px;
@@ -37,12 +37,16 @@
 .right-box__inner:last-child {
   border-bottom: none;
 }
+.right-box__inner img {
+  height: 100%;
+}
 .project__box {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 60px 30px;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 30px;
   box-sizing: border-box;
   border-left: 1px solid rgba(21, 21, 21, 0.15);
 }
@@ -53,6 +57,7 @@
   width: 100%;
   border-left: none;
 }
+
 .go-git__btn {
   display: block;
   width: 100%;
@@ -63,7 +68,7 @@
   border-radius: 50vw;
   background-color: #4f5bff;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0 auto;
 }
 .go-git__btn > span {
@@ -88,9 +93,9 @@
 }
 
 .project__box-title__name {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .project__box-title > a > img {
   width: 30px;
@@ -100,25 +105,24 @@
   transform: translate(50px, -50px);
 }
 #amom-tea-img {
-  width: 600px;
-  height: 250px;
-  background-image: url("/images/amomtea.png");
-  background-position: center -4px;
+  width: 100%;
+  background-image: url('/images/amomtea.png');
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: contain;
+  aspect-ratio: 1;
 }
 .project__box-content {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1rem;
   color: #151515;
   font-weight: 300;
 }
 .lang-name {
-  font-size: 1.2rem;
-  font-family: "Quicksand", sans-serif;
+  font-size: 1.125rem;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 600;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 /******************************** 
@@ -142,14 +146,81 @@
 .about__title {
   width: 100%;
   color: #151515;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   margin-bottom: 60px;
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 .about__title > span {
+  display: block;
+  width: calc(61% - 10px);
   font-size: 10rem;
   line-height: 100%;
   font-weight: 900;
+}
+.title__deco {
+  width: calc(39% - 10px);
+  font-size: 1.25rem;
+  text-align: right;
+}
+.title__deco::after {
+  content: '';
+  width: 0%;
+  height: 5px;
+  background-color: #151515;
+  display: block;
+  transition: all 0.7s ease;
+}
+.title__deco .deco__text {
+  display: block;
+  font-weight: bold;
+}
+.title__deco.active::after {
+  width: 100%;
+}
+.about__content-wrap {
+  width: 100%;
+  max-width: 1550px;
+  margin: 80px auto;
+}
+.about__content {
+  width: 50%;
+}
+.about-content__title {
+  font-size: 4.25rem;
+  font-weight: 600;
+  font-family: 'Pretendard-Regular';
+  line-height: 2;
+}
+.about-content__text {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+.about__left > ul > li,
+.about__right > ul > li {
+  display: flex;
+  gap: 10px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-family: 'Pretendard-Regular';
+  color: #000;
+}
+.about__left > ul > li > p:first-child,
+.about__right > ul > li > p:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.about__content.reserved {
+  margin-left: auto;
+}
+.about__left > ul > li.flex__col,
+.about__right > ul > li.flex__col {
+  flex-direction: column;
+  line-height: 1;
+  margin-bottom: 20px;
 }

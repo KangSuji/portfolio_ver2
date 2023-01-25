@@ -1,11 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Noto+Sans+KR:wght@300;400;700;900&family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Noto+Sans+KR:wght@300;400;700;900&family=Quicksand&display=swap');
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 /* 
 font-family: 'Alfa Slab One', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans KR', sans-serif;
 font-family: 'Quicksand', sans-serif; 
 */
-
+.bold {
+  font-weight: bold;
+}
 header {
   padding: 0;
   width: 100%;
@@ -34,7 +43,7 @@ header {
   text-decoration: none;
   color: #fff;
   font-size: 2.5rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-align: start;
 }
@@ -52,7 +61,7 @@ header {
 }
 .dep1 li a {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 1rem;
   transition: all 0.1s ease-in;
@@ -60,7 +69,7 @@ header {
   color: #fff;
 }
 .dep1 li a::after {
-  content: "";
+  content: '';
   width: 0%;
   height: 2px;
   display: block;
@@ -99,7 +108,7 @@ header {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Alfa Slab One', cursive;
   font-size: 8rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -128,7 +137,7 @@ header {
   margin: 0 auto;
 }
 .sec-title {
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Alfa Slab One', cursive;
   font-size: 5rem;
   color: #000;
   text-transform: uppercase;
@@ -142,7 +151,7 @@ header {
   gap: 10px;
   flex-wrap: wrap;
   margin: 25px 0 0px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .skil-list-wrap .project-wrap .swiper-slide.project-slide {
@@ -160,7 +169,7 @@ header {
   box-sizing: border-box;
 }
 .project-slide .project-name {
-  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+  font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.45rem;
@@ -169,10 +178,18 @@ header {
   display: flex;
   align-items: center;
 }
-.skil-list-wrap .project-wrap .swiper-slide.project-slide:hover > .open-text > .lnr-arrow-right {
+.skil-list-wrap
+  .project-wrap
+  .swiper-slide.project-slide:hover
+  > .open-text
+  > .lnr-arrow-right {
   transform: translateX(50%);
 }
-.skil-list-wrap .project-wrap .swiper-slide.project-slide > .open-text > .lnr-arrow-right {
+.skil-list-wrap
+  .project-wrap
+  .swiper-slide.project-slide
+  > .open-text
+  > .lnr-arrow-right {
   margin-top: 6px;
   margin-left: 10px;
   transition: all 0.3s ease-in;
@@ -234,7 +251,7 @@ header {
   width: 100%;
   justify-content: center;
   align-items: center;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
@@ -275,7 +292,7 @@ header {
   font-weight: 400;
 }
 .clause a.term__link::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 1px;
   height: 1rem;
@@ -296,7 +313,7 @@ header {
   position: relative;
 }
 .address__wrap ul li::after {
-  content: "";
+  content: '';
   display: block;
   width: 1px;
   height: 19px;
