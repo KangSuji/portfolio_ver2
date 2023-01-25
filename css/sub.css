@@ -122,14 +122,34 @@
 }
 
 /******************************** 
-            skills
+            about
  *******************************/
 
-.skills {
+.about {
+  width: 100%;
+}
+.about__section {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
+  padding: 50px 0 80px;
 }
-.skills-section01 {
+.about__inner {
   width: 100%;
+  max-width: 1550px;
+  margin: 0 auto;
+}
+.about__title {
+  width: 100%;
+  color: #151515;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+}
+.about__title > span {
+  font-size: 10rem;
+  line-height: 100%;
+  font-weight: 900;
 }
