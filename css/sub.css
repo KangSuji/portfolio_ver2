@@ -13,7 +13,7 @@
   color: #151515;
   font-size: 10rem;
   line-height: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 60px;
@@ -68,7 +68,7 @@
   border-radius: 50vw;
   background-color: #4f5bff;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0 auto;
 }
 .go-git__btn > span {
@@ -95,7 +95,7 @@
 .project__box-title__name {
   font-size: 2rem;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .project__box-title > a > img {
   width: 30px;
@@ -106,21 +106,21 @@
 }
 #amom-tea-img {
   width: 100%;
-  background-image: url('/images/amomtea.png');
+  background-image: url("/images/amomtea.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   aspect-ratio: 1;
 }
 .project__box-content {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 1rem;
   color: #151515;
   font-weight: 300;
 }
 .lang-name {
   font-size: 1.125rem;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -146,7 +146,7 @@
 .about__title {
   width: 100%;
   color: #151515;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   margin-bottom: 60px;
   display: flex;
@@ -166,7 +166,7 @@
   text-align: right;
 }
 .title__deco::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 5px;
   background-color: #151515;
@@ -191,7 +191,7 @@
 .about-content__title {
   font-size: 4.25rem;
   font-weight: 600;
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   line-height: 2;
 }
 .about-content__text {
@@ -207,13 +207,18 @@
   gap: 10px;
   font-size: 1.125rem;
   line-height: 1.5;
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   color: #000;
+}
+.about__left > ul > li > p,
+.about__right > ul > li > p {
+  line-height: 1.2;
 }
 .about__left > ul > li > p:first-child,
 .about__right > ul > li > p:first-child {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1.25rem;
 }
 .about__content.reserved {
   margin-left: auto;
@@ -223,4 +228,89 @@
   flex-direction: column;
   line-height: 1;
   margin-bottom: 20px;
+}
+/************************
+  profile
+************************/
+.profile__content {
+  width: 100%;
+  padding: 50px 0;
+  border-top: 2px solid #000;
+}
+.profile__tilte,
+.pro2-title {
+  font-size: 2.45rem;
+  font-family: "Pretendard-Regular";
+  font-weight: bold;
+}
+.profile__wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile__row {
+  width: 20%;
+  font-family: "Pretendard-Regular";
+  margin: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.full__row {
+  width: 100%;
+}
+.half__row {
+  width: 50%;
+}
+.profile__th {
+  width: 100%;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 20px 0;
+  background-color: #ddd;
+}
+.profile__td {
+  padding: 10px 15px 20px;
+  box-sizing: border-box;
+}
+.txt-left {
+  text-align: left;
+}
+.profile__td ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  line-height: 1.2;
+}
+.profile__td ul li::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #151515;
+  flex-shrink: 0;
+  margin-top: 7px;
+}
+.profile__wrap2 .profile__row {
+  width: 16.666%;
+}
+.profile__wrap3 .profile__row {
+  width: 25%;
+}
+.profile__wrap2 {
+  width: 100%;
+}
+.pro-wrap2__inner {
+  width: 100%;
+  max-width: 1550px;
+  margin: 0 auto;
+}
+.pro2__content {
+  margin: 50px 0;
+}
+.pro__subtitle {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.pro__subtext {
 }
