@@ -308,9 +308,21 @@
   margin: 50px 0;
 }
 .pro__subtitle {
-  font-size: 1.125rem;
+  font-size: 1.75rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 .pro__subtext {
+  width: 80%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  word-break: keep-all;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.pro__subtext .sub__title {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: "Pretendard-Regular";
 }
