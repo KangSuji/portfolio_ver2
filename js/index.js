@@ -19,4 +19,12 @@ $(document).ready(function () {
     horizontal: true,
   });
   $('.title__deco').addClass('active');
+
+  //Move project page with scroll
+  const url = new URL(window.location);
+  const urlParams = url.searchParams;
+  if (urlParams.get('s')) {
+    const scrollTop = $('#' + urlParams.get('s')).offset().top;
+    $('html, body').animate({ scrollTop }, 500);
+  }
 });
