@@ -1,0 +1,5 @@
+@media (max-width: 1280px) {
+  .skil-list-wrap .project-wrap .swiper-slide.project-slide {
+    width: auto;
+  }
+}

@@ -5,10 +5,21 @@ $(document).ready(function () {
     slidesToShow: 1,
     spaceBetween: 20,
     debugger: true,
+    pagination: {
+      //페이징 사용자 설정
+      el: '.pagination_fraction', //페이징 태그 클래스 설정
+      type: 'fraction',
+    },
     breakpoints: {
-      //반응형 조건 속성
-      400: {
-        //slidesPerView: 1.5,
+      1280: {
+        slidesPerView: 3,
+        spaceBetween: 8,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 8,
+      },
+      550: {
         slidesPerView: 'auto',
         spaceBetween: 8,
       },

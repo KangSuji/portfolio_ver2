@@ -137,10 +137,15 @@ header {
   margin: 0 auto;
 }
 .sec-title {
+  width: 100%;
   font-family: 'Alfa Slab One', cursive;
   font-size: 5rem;
   color: #000;
   text-transform: uppercase;
+}
+.pagination_fraction {
+  width: fit-content;
+  font-size: 1.25rem;
 }
 .skil-list-wrap .project-wrap {
   width: 100%;
@@ -155,8 +160,10 @@ header {
 }
 
 .skil-list-wrap .project-wrap .swiper-slide.project-slide {
-  width: 25% !important;
-  height: 250px;
+  width: 25%;
+  max-width: 400px;
+  min-height: 250px;
+  aspect-ratio: 4/3;
   font-size: 2rem;
   border-radius: 20px;
   border: 1px solid #151515;
