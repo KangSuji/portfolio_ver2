@@ -288,7 +288,7 @@ header {
   margin-bottom: 30px;
 }
 .clause a {
-  font-family: Pretendard;
+  font-family: 'Pretendard-Regular';
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0px;
@@ -307,7 +307,7 @@ header {
   margin-right: 15px;
 }
 .address__wrap {
-  font-family: Pretendard;
+  font-family: 'Pretendard-Regular';
   font-size: 1rem;
   letter-spacing: 0px;
 }
