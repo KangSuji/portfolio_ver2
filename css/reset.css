@@ -54,55 +54,17 @@ section {
 }
 
 ::-moz-selection {
-  background: #11368d; /*드래그시 색상 변경할 것*/
+  background: #333; /*드래그시 색상 변경할 것*/
   color: #fff;
 }
 ::selection {
-  background: #11368d;
+  background: #333;
   color: #fff;
 }
 
 select::-ms-expand {
   display: none;
 }
-
-/* 대표색 설정하기 */
-.c1 {
-  color: #174332 !important;
-}
-.c2 {
-  color: #0a8001 !important;
-}
-.c3 {
-  color: #438d68 !important;
-}
-.c4 {
-  color: #438f8f !important;
-}
-
-.c_bk {
-  color: #070b09;
-}
-.c_w {
-  color: #fff;
-}
-.c_gry {
-  color: #878787;
-}
-.c_gry2 {
-  color: #666;
-}
-.c_red {
-  color: #e3200a;
-}
-
-/* 특정 폰트 지정 
-.cv {font-family: 'Caveat', cursive;}
-.gb {font-family: 'GyeonggiBatang';}
-.mr {font-family: 'MaruBuri-Regular';}
-.ns {font-family: 'Noto Serif', serif;}
-.cs {font-family: 'Chosunilbo_myungjo';}
-*/
 
 .light {
   font-weight: 300;
@@ -317,34 +279,34 @@ select::-ms-expand {
 }
 
 .p_12 {
-  padding_botttom: 12px !important;
+  padding-bottom: 12px !important;
 }
 .p_20 {
-  padding_botttom: 20px !important;
+  padding-bottom: 20px !important;
 }
 .p_24 {
-  padding_botttom: 24px !important;
+  padding-bottom: 24px !important;
 }
 .p_28 {
-  padding_botttom: 28px !important;
+  padding-bottom: 28px !important;
 }
 .p_36 {
-  padding_botttom: 36px !important;
+  padding-bottom: 36px !important;
 }
 .p_45 {
-  padding_botttom: 45px !important;
+  padding-bottom: 45px !important;
 }
 .p_60 {
-  padding_botttom: 60px !important;
+  padding-bottom: 60px !important;
 }
 .p_80 {
-  padding_botttom: 80px !important;
+  padding-bottom: 80px !important;
 }
 .p_72 {
-  padding_botttom: 72px !important;
+  padding-bottom: 72px !important;
 }
 .p_100 {
-  padding_botttom: 100px !important;
+  padding-bottom: 100px !important;
 }
 
 .dp_f {
