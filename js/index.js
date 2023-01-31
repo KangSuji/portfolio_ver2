@@ -58,8 +58,13 @@ $(document).ready(function () {
 $(window).scroll(function () {
   if ($(window).scrollTop() > 0) {
     $(".mo-nav").css({ "box-shadow": "1px 0px 2px 1px rgb(255 255 255 / 20%)" });
+    $(".top__btn").fadeIn();
   }
   if ($(window).scrollTop() == 0) {
     $(".mo-nav").css({ "box-shadow": "none" });
+    $(".top__btn").fadeOut();
   }
+  $(".top__btn").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 500);
+  });
 });
