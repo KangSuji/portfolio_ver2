@@ -13,7 +13,7 @@
   color: #151515;
   font-size: 10rem;
   line-height: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 60px;
@@ -68,7 +68,7 @@
   border-radius: 50vw;
   background-color: #4f5bff;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0 auto;
 }
 .go-git__btn > span {
@@ -96,7 +96,7 @@
 .project__box-title__name {
   font-size: 2rem;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .project__box-title > a > img {
   width: 30px;
@@ -107,21 +107,21 @@
 }
 #amom-tea-img {
   width: 100%;
-  background-image: url('/images/amomtea.png');
+  background-image: url("/images/amomtea.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   aspect-ratio: 1;
 }
 .project__box-content {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 1rem;
   color: #151515;
   font-weight: 300;
 }
 .lang-name {
   font-size: 1.125rem;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -147,7 +147,7 @@
 .about__title {
   width: 100%;
   color: #151515;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   margin-bottom: 60px;
   display: flex;
@@ -167,7 +167,7 @@
   text-align: right;
 }
 .title__deco::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 5px;
   background-color: #151515;
@@ -192,7 +192,7 @@
 .about-content__title {
   font-size: 4.25rem;
   font-weight: 600;
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   line-height: 2;
 }
 .about-content__text {
@@ -208,7 +208,7 @@
   gap: 10px;
   font-size: 1.125rem;
   line-height: 1.5;
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   color: #000;
 }
 .about__left > ul > li > p,
@@ -242,7 +242,7 @@
   margin: 50px 0;
 }
 .email__title {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   font-size: 2.24rem;
   font-weight: 400;
 }
@@ -260,7 +260,7 @@
   box-sizing: border-box;
   border: 1px solid #ddd;
   border-radius: 10px;
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   font-size: 1.125rem;
   color: #000;
 }
@@ -275,7 +275,7 @@
 .email__row1 p {
   width: 50%;
   margin-top: 20px;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
 }
 .email__row2 {
 }
@@ -291,6 +291,7 @@
 }
 .submit__btn {
   width: 20%;
+  min-width: 200px;
   margin-left: auto;
   border: none;
   padding: 20px 10px;
@@ -302,7 +303,7 @@
   background-color: #333;
   cursor: pointer;
   font-size: 1.5rem;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   letter-spacing: 3px;
 }
 /************************
@@ -316,7 +317,7 @@
 .profile__tilte,
 .pro2-title {
   font-size: 2.45rem;
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   font-weight: bold;
 }
 .profile__wrap {
@@ -325,7 +326,7 @@
 }
 .profile__row {
   width: 20%;
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   margin: 20px 0;
   text-align: center;
   border-bottom: 1px solid #ddd;
@@ -357,7 +358,7 @@
   line-height: 1.2;
 }
 .profile__td ul li::before {
-  content: '';
+  content: "";
   display: block;
   width: 4px;
   height: 4px;
@@ -394,11 +395,11 @@
   box-sizing: border-box;
   line-height: 1.5;
   word-break: keep-all;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 .pro__subtext .sub__title {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
 }

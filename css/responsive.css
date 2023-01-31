@@ -1,11 +1,62 @@
+@media (max-width: 1600px) {
+  .about__content-wrap,
+  .about__title {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .profile__content {
+    padding: 50px 15px;
+    box-sizing: border-box;
+  }
+}
 @media (max-width: 1280px) {
   .skil-list-wrap .project-wrap .swiper-slide.project-slide {
     width: auto;
+  }
+  .about__title > span {
+    font-size: 5.5rem;
   }
 }
 @media (max-width: 1024px) {
   .logo-wrap .logo {
     font-size: 2rem;
+  }
+}
+@media (max-width: 900px) {
+  .project__wrap {
+    position: relative;
+    margin: 100px auto 0;
+  }
+  .left-box {
+    position: absolute;
+    top: -100px;
+    width: fit-content;
+    right: 30px;
+  }
+  .right-box {
+    width: 100%;
+  }
+  .left-box > .project__box {
+    padding: 0;
+  }
+  .go-git__btn {
+    max-width: unset;
+    width: 200px;
+  }
+  .go-git__btn.sticky {
+    width: 200px;
+    right: 30px;
+  }
+}
+@media (max-width: 850px) {
+  .about__content {
+    width: 100%;
+  }
+  .about__content.reserved {
+    margin-left: 0;
+  }
+  .project-section01 .section-tilte {
+    font-size: 5.5rem;
   }
 }
 @media (max-width: 768px) {
@@ -178,6 +229,74 @@
     width: 100px;
     height: 30px;
   }
+  .about__section,
+  .project-section01 {
+    margin-top: 90px;
+  }
+  .project {
+    padding: 50px 15px;
+    box-sizing: border-box;
+  }
+  .about__title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about__title > span {
+    width: 100%;
+    font-size: 5.5rem;
+  }
+  .title__deco {
+    width: 100%;
+  }
+  .about__title {
+    margin-bottom: 50px;
+  }
+  .about__content-wrap {
+    margin-top: 50px;
+  }
+  .left-box {
+    top: -80px;
+    right: 10px;
+  }
+
+  .right-box__inner {
+    flex-direction: column-reverse;
+  }
+  .project__box {
+    width: 100%;
+    border-left: none;
+    padding: 20px 10px;
+  }
+  .project__box-title__name {
+    font-size: 1.75rem;
+  }
+  .project__box-title > a > img {
+    width: 1.75rem;
+  }
+  .profile__section {
+    padding-bottom: 50px;
+  }
+  .profile__wrap {
+    flex-direction: column;
+  }
+  .profile__row,
+  .profile__wrap2 .profile__row,
+  .profile__wrap3 .profile__row {
+    width: 100%;
+    margin: 0;
+  }
+  .profile__tilte,
+  .pro2-title,
+  .pro__subtitle,
+  .pro__subtext .sub__title {
+    text-align: center;
+  }
+  .pro2__content {
+    margin-top: 30px;
+  }
+  .profile__content {
+    padding-bottom: 30px;
+  }
 }
 @media (max-width: 550px) {
   .home-text-wrap {
@@ -208,5 +327,21 @@
   .skil-img svg {
     width: 80px;
     height: 30px;
+  }
+  .go-git__btn {
+    width: 150px;
+  }
+  .go-git__btn.sticky {
+    top: 125px;
+    width: 150px;
+  }
+}
+@media (max-width: 425px) {
+  .about__title {
+    gap: 10px;
+  }
+  .about__title > span,
+  .project-section01 .section-tilte {
+    font-size: 3.25rem;
   }
 }
