@@ -115,6 +115,7 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
+  letter-spacing: 5px;
 }
 .text01,
 .text03 {
