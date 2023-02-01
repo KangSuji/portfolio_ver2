@@ -169,7 +169,7 @@ header {
   aspect-ratio: 4/3;
   font-size: 2rem;
   border-radius: 20px;
-  border: 1px solid #151515;
+  /* border: 1px solid #151515; */
   background-color: #151515;
   display: flex;
   flex-direction: column;
@@ -177,6 +177,70 @@ header {
   justify-content: space-between;
   padding: 50px;
   box-sizing: border-box;
+  transition: background 0.3s ease-out;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#ncs:hover {
+  background: url("/images/ncs-pc.png") no-repeat center / cover;
+  color: #fff;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#kiada:hover {
+  background: url("/images/kiada-pc.png") no-repeat center / cover;
+  color: #fff;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#tesung:hover {
+  background: url("/images/teasung-pc.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#amom:hover {
+  background: url("/images/amomtea.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#atx:hover {
+  background: url("/images/atx-pc.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#ts:hover {
+  background: url("/images/teasung-pc.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#yeadam:hover {
+  background: url("/images/yeadam.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#dewon:hover {
+  background: url("/images/daewon.png") no-repeat center / cover;
+  color: #fff;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#pohen:hover {
+  background: url("/images/pocheon.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#qnb:hover {
+  background: url("/images/qnb.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#epfood:hover {
+  background: url("/images/epfood.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#epkid:hover {
+  background: url("/images/epchild.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#yeadam2:hover {
+  background: url("/images/yedam02.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#hknews:hover {
+  background: url("/images/hk-news.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#omdb:hover {
+  background: url("/images/omdb-pc.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#starbucks:hover {
+  background: url("/images/star-pc.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#kakao:hover {
+  background: url("/images/kakao.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#portfolio1:hover {
+  background: url("/images/portpolio.png") no-repeat center / cover;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#showall:hover {
+  color: #fff;
+}
+.skil-list-wrap .project-wrap .swiper-slide.project-slide:hover {
+  color: #151515;
 }
 .project-slide .project-name {
   font-family: "Montserrat", "Noto Sans KR", sans-serif;
