@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  const swiper = new Swiper(".project-wrap", {
+  AOS.init();
+  const swiper = new Swiper('.project-wrap', {
     slidesPerView: 3,
     variableWidth: true,
     slidesToShow: 1,
@@ -7,8 +8,8 @@ $(document).ready(function () {
     debugger: true,
     pagination: {
       //페이징 사용자 설정
-      el: ".pagination_fraction", //페이징 태그 클래스 설정
-      type: "fraction",
+      el: '.pagination_fraction', //페이징 태그 클래스 설정
+      type: 'fraction',
     },
     breakpoints: {
       1280: {
@@ -20,51 +21,53 @@ $(document).ready(function () {
         spaceBetween: 8,
       },
       550: {
-        slidesPerView: "auto",
+        slidesPerView: 'auto',
         spaceBetween: 8,
       },
     },
   });
-  AOS.init();
-  var rellax = new Rellax(".rellax", {
+
+  var rellax = new Rellax('.rellax', {
     horizontal: true,
   });
-  $(".title__deco").addClass("active");
+  $('.title__deco').addClass('active');
 
   //Move project page with scroll
   const url = new URL(window.location);
   const urlParams = url.searchParams;
-  if (urlParams.get("s")) {
-    const scrollTop = $("#" + urlParams.get("s")).offset().top;
-    $("html, body").animate({ scrollTop }, 500);
+  if (urlParams.get('s')) {
+    const scrollTop = $('#' + urlParams.get('s')).offset().top;
+    $('html, body').animate({ scrollTop }, 500);
   }
 
   //모바일 gnb depth2
 
-  $(".btn-all").click(function (event) {
+  $('.btn-all').click(function (event) {
     event.preventDefault();
-    $(".mo-bg").stop().fadeIn();
-    $(".m-navbox").stop().addClass("on");
-    $("html, body").css("overflow", "hidden");
+    $('.mo-bg').stop().fadeIn();
+    $('.m-navbox').stop().addClass('on');
+    $('html, body').css('overflow', 'hidden');
   });
 
-  $(".btn-close, .mo-bg").click(function (event) {
+  $('.btn-close, .mo-bg').click(function (event) {
     event.preventDefault();
-    $(".mo-bg").stop().fadeOut();
-    $(".m-navbox").stop().removeClass("on");
-    $("html, body").css("overflow", "auto");
+    $('.mo-bg').stop().fadeOut();
+    $('.m-navbox').stop().removeClass('on');
+    $('html, body').css('overflow', 'auto');
   });
 });
 $(window).scroll(function () {
   if ($(window).scrollTop() > 0) {
-    $(".mo-nav").css({ "box-shadow": "1px 0px 2px 1px rgb(255 255 255 / 20%)" });
-    $(".top__btn").fadeIn();
+    $('.mo-nav').css({
+      'box-shadow': '1px 0px 2px 1px rgb(255 255 255 / 20%)',
+    });
+    $('.top__btn').fadeIn();
   }
   if ($(window).scrollTop() == 0) {
-    $(".mo-nav").css({ "box-shadow": "none" });
-    $(".top__btn").fadeOut();
+    $('.mo-nav').css({ 'box-shadow': 'none' });
+    $('.top__btn').fadeOut();
   }
-  $(".top__btn").click(function () {
-    $("html, body").animate({ scrollTop: 0 }, 500);
+  $('.top__btn').click(function () {
+    $('html, body').animate({ scrollTop: 0 }, 500);
   });
 });
