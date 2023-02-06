@@ -96,7 +96,7 @@
     text-decoration: none;
     color: #fff;
     font-size: 2.5rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-align: start;
   }
@@ -187,7 +187,7 @@
     height: 50px;
     line-height: 50px;
     color: #fff;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     text-indent: 20px;
@@ -302,6 +302,9 @@
   }
   .project-slide .project-name {
     font-size: 1.5rem;
+  }
+  .skil-list-wrap {
+    padding-bottom: 0;
   }
 }
 @media (max-width: 550px) {
