@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Noto+Sans+KR:wght@300;400;700;900&family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Noto+Sans+KR:wght@300;400;700;900&family=Quicksand&display=swap");
 @font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
-    format('woff');
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -46,7 +46,7 @@ header {
   text-decoration: none;
   color: #fff;
   font-size: 2.5rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   text-align: start;
 }
@@ -64,7 +64,7 @@ header {
 }
 .dep1 li a {
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 1rem;
   transition: all 0.1s ease-in;
@@ -72,7 +72,7 @@ header {
   color: #fff;
 }
 .dep1 li a::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
   display: block;
@@ -111,7 +111,7 @@ header {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   font-size: 8rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -143,7 +143,7 @@ header {
 }
 .sec-title {
   width: 100%;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   font-size: 5rem;
   color: #000;
   text-transform: uppercase;
@@ -182,61 +182,65 @@ header {
   transition: all 0.3s ease-out;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#ncs:hover {
-  background: url('/images/ncs-pc.png') no-repeat center / cover;
+  background: url("/images/ncs-pc.png") no-repeat center / cover;
   color: #fff;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#kiada:hover {
-  background: url('/images/kiada-pc.png') no-repeat center / cover;
+  background: url("/images/kiada-pc.png") no-repeat center / cover;
   color: #fff;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#tesung:hover {
-  background: url('/images/teasung-pc.png') no-repeat center / cover;
+  background: url("/images/teasung-pc.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#amom:hover {
-  background: url('/images/amomtea.png') no-repeat center / cover;
+  background: url("/images/amomtea.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#atx:hover {
-  background: url('/images/atx-pc.png') no-repeat center / cover;
+  background: url("/images/atx-pc.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#ts:hover {
-  background: url('/images/teasung-pc.png') no-repeat center / cover;
+  background: url("/images/teasung-pc.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#yeadam:hover {
-  background: url('/images/yeadam.png') no-repeat center / cover;
+  background: url("/images/yeadam.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#dewon:hover {
-  background: url('/images/daewon.png') no-repeat center / cover;
+  background: url("/images/daewon.png") no-repeat center / cover;
   color: #fff;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#pohen:hover {
-  background: url('/images/pocheon.png') no-repeat center / cover;
+  background: url("/images/pocheon.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#qnb:hover {
-  background: url('/images/qnb.png') no-repeat center / cover;
+  background: url("/images/qnb.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#epfood:hover {
-  background: url('/images/epfood.png') no-repeat center / cover;
+  background: url("/images/epfood.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#epkid:hover {
-  background: url('/images/epchild.png') no-repeat center / cover;
+  background: url("/images/epchild.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#yeadam2:hover {
-  background: url('/images/yedam02.png') no-repeat center / cover;
+  background: url("/images/yedam02.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#hknews:hover {
-  background: url('/images/hk-news.png') no-repeat center / cover;
+  background: url("/images/hk-news.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#omdb:hover {
-  background: url('/images/omdb-pc.png') no-repeat center / cover;
+  background: url("/images/omdb-pc.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#starbucks:hover {
-  background: url('/images/star-pc.png') no-repeat center / cover;
+  background: url("/images/star-pc.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#kakao:hover {
-  background: url('/images/kakao.png') no-repeat center / cover;
+  background: url("/images/kakao.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#portfolio1:hover {
-  background: url('/images/portpolio.png') no-repeat center / cover;
+  background: url("/images/portpolio.png") no-repeat center / cover;
+}
+
+.skil-list-wrap .project-wrap .swiper-slide.project-slide#coneyfl:hover {
+  background: url("/images/coneylf.png") no-repeat center / cover;
 }
 .skil-list-wrap .project-wrap .swiper-slide.project-slide#showall:hover {
   color: #fff;
@@ -245,7 +249,7 @@ header {
   color: #151515;
 }
 .project-slide .project-name {
-  font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+  font-family: "Montserrat", "Noto Sans KR", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.45rem;
@@ -327,7 +331,7 @@ header {
   width: 100%;
   justify-content: center;
   align-items: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
@@ -364,7 +368,7 @@ header {
   margin-bottom: 30px;
 }
 .clause a {
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0px;
@@ -375,7 +379,7 @@ header {
   font-weight: 400;
 }
 .clause a.term__link::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 1rem;
@@ -383,7 +387,7 @@ header {
   margin-right: 15px;
 }
 .address__wrap {
-  font-family: 'Pretendard-Regular';
+  font-family: "Pretendard-Regular";
   font-size: 1rem;
   letter-spacing: 0px;
 }
@@ -396,7 +400,7 @@ header {
   position: relative;
 }
 .address__wrap ul li::after {
-  content: '';
+  content: "";
   display: block;
   width: 1px;
   height: 19px;
