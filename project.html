@@ -647,7 +647,7 @@
     </nav>
     <script>
       $('.go-git__btn').click(() =>
-        alert('보안문제로 업체 작업 repository는 비공개 되었습니다 ㅠㅠ')
+        alert('업체 작업 repository는 비공개 처리 하였습니다. (요청시 공개)')
       );
       $(window).scroll(function () {
         if ($(window).scrollTop() >= $('.right-box').offset().top) {
@@ -657,64 +657,6 @@
         if ($(window).scrollTop() <= $('.right-box').offset().top) {
           $('.go-git__btn').removeClass('sticky');
         }
-
-        /* git hub private repository issue
-
-        if ($(window).scrollTop() >= $('#pro1').offset().top) {
-          $('.go-git__btn').attr('href', 'https://github.com/KangSuji/NCS');
-        }
-        if ($(window).scrollTop() >= $('#p-kiada').offset().top) {
-          $('.go-git__btn').attr('href', 'https://github.com/KangSuji/kiada');
-        }
-        if ($(window).scrollTop() >= $('#p-teasung').offset().top) {
-          $('.go-git__btn').attr('href', 'https://github.com/KangSuji/taesung');
-        }
-        if ($(window).scrollTop() >= $('#p-amom').offset().top) {
-          $('.go-git__btn').attr('href', '');
-        }
-        if ($(window).scrollTop() >= $('#p-atx').offset().top) {
-          $('.go-git__btn').attr(
-            'href',
-            'https://github.com/KangSuji/ATX_VER02'
-          );
-        }
-        if ($(window).scrollTop() >= $('#p-news').offset().top) {
-          $('.go-git__btn').attr(
-            'href',
-            'https://github.com/KangSuji/vue3-news'
-          );
-        }
-        if ($(window).scrollTop() >= $('#p-omdb').offset().top) {
-          $('.go-git__btn').attr(
-            'href',
-            'https://github.com/KangSuji/vue-movie-app'
-          );
-        }
-        if ($(window).scrollTop() >= $('#p-starbucks').offset().top) {
-          $('.go-git__btn').attr(
-            'href',
-            'https://github.com/KangSuji/starbucks'
-          );
-        }
-        if ($(window).scrollTop() >= $('#p-ts').offset().top) {
-          $('.go-git__btn').attr('href', 'https://github.com/KangSuji/TS');
-        }
-        if ($(window).scrollTop() >= $('#p-yeadam').offset().top) {
-          $('.go-git__btn').attr('href', '');
-        }
-        if ($(window).scrollTop() >= $('#p-deawon').offset().top) {
-          $('.go-git__btn').attr('href', '');
-        }
-        if ($(window).scrollTop() >= $('#p-pochen').offset().top) {
-          $('.go-git__btn').attr('href', '');
-        }
-        if ($(window).scrollTop() >= $('#p-QnB').offset().top) {
-          $('.go-git__btn').attr('href', '');
-        }
-        if ($(window).scrollTop() >= $('#p-cfood').offset().top) {
-          $('.go-git__btn').attr('href', '');
-        }
-        */
       });
     </script>
   </body>
